@@ -1,0 +1,108 @@
+.chart-container{
+    display: inline-block;
+    width: 250px;
+    height: 450px;
+    box-shadow: 3px 3px 10px grey;
+    margin: 15px;
+    transition: box-shadow 0.15s;
+}
+.chart-container:hover{
+    box-shadow: 1px 1px 3px grey;
+    
+}
+.chart-image-container{
+    display:block ;
+    width: 230px;
+    margin: 10px;
+    height: 280px;
+    box-shadow: 0px 0px 3px;
+}
+.chart-image{
+    display: block;
+    max-height: 280px;
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chart-info-container{
+    display: inline-block;
+    width: 230px;
+    height: 80px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    margin: 0px;
+}
+.date{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 5px;
+    margin-left: 0px;
+}
+.owner{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0px;
+}
+.button-container{
+    display: inline-block;
+    width: 230px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 0px;
+}
+.view-button{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-color: rgb(200, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    color: rgb(200, 0, 0);
+    background-color: white;
+    transition: background-color 0.15s,color 0.15s,opacity 0.15s;
+    cursor: pointer;
+}
+.view-button:hover{
+    background-color: rgb(200, 0, 0);
+    color: white;
+}
+.view-button:active{
+    opacity: 0.7;
+}
+
+.github-button{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: rgb(59, 161, 59);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    color:  rgb(59, 161, 59);
+    background-color: white;
+    transition: background-color 0.15s,color 0.15s,opacity 0.15s;
+    cursor: pointer;
+}
+.github-button:hover{
+    background-color: rgb(59, 161, 59);
+    color: white;
+}
+.github-button:active{
+    opacity: 0.7;
+}

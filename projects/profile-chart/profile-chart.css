@@ -1,0 +1,62 @@
+.chart{
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    box-shadow: 3px 3px 10px grey;;
+    transition: box-shadow 0.15s;
+}
+.chart:hover{
+    box-shadow: 1px 1px 3px grey;;
+}
+
+
+.profile-image{
+    display: inline-block;
+    width: 230px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+.name{
+    text-align:left ;
+    margin: 10px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+.friend-info{
+    text-align:left ;
+    margin: 10px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: 600;
+    color: grey;
+}
+.button{
+    color: blue;
+    border-color: blue;
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    margin: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.15s,background-color 0.15s;
+    cursor: pointer;
+    
+}
+button:hover{
+    color: white;
+    background-color: blue;
+}
+button:active{
+    opacity: 0.7;
+}
